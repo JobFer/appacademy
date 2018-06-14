@@ -11,7 +11,7 @@ import com.example.demo.entity.Teacher;
 @Service
 public class TeacherService implements ITeacherService {
 
-	private static List<Teacher> LIST_TEACHER=new  ArrayList<>();
+	private static List<Teacher> LIST_TEACHER = new  ArrayList<>();
 	
 	static{
 		LIST_TEACHER.add(new Teacher(1L, "Henry Mendoza Puerta"));

@@ -12,6 +12,8 @@ public class AppacademyApplication {
 	private static final Logger log = Logger.getLogger(AppacademyApplication.class);
 
 	public static void main(String[] args) {
+		
+		log.info("Inicio AppacademyApplication");
 		SpringApplication.run(AppacademyApplication.class, args);
 	}
 	
